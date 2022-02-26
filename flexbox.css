@@ -1,0 +1,33 @@
+.header, .footer{
+    height: 20vh;
+    background-color: #9acd32;
+}
+.inside{
+    height: 100%;
+    display: flex;
+}
+.article{
+    background-color: white;
+    flex-grow: 4; 
+}
+.aside{
+    background-color: #f5f5dc;
+    flex-grow: 1;
+}
+.nav{
+    background-color: #d7e8d4;
+    flex-grow: 1;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .inside{ 
+        flex-direction: column;
+    }
+}

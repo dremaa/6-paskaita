@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(76, 114, 241);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+img{
+    background-position: center;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 5px 0;
+    background-size: cover;
+}
+h4{
+    color: rgb(61, 61, 61);
+}
+p{
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+    margin: 0;
+}
+.text{
+    margin-left: 15px;
+}
+.none{
+    border-bottom: none;
+}
